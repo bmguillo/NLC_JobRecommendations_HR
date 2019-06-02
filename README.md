@@ -15,12 +15,6 @@
 - classify weather data e.g. conditions, temperature
 - support tickets
 
-## Process to train a classifier: 
-- Upload your CSV file with label examples, better accuracy through shorter text
-- Natural Language Classifier will return the best matching classes for a sentence, phrase, or paragraph
-- Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
-- You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
-
 ## Using Data Science Methodology
 
 1. Business Understanding(Identify Business Problem) - As an HR professional, I want an easy way to identify or label candidates that have certain qualities for specific job types based on those qualities
@@ -28,6 +22,30 @@
 3. Data Requirements - Resume data & job role data, using sample with classifiers for training data
 4. Data Science Tools - structured data(excel) & Python
 5. Locate data - job repository & resume repository
+6. Training & Testing Classifier(steps below)
+
+## Process to train/test a classifier: 
+
+
+Prerequisites
+- IBM Cloud account: If you do not have an IBM Cloud account, you can create an account [here](https://cloud.ibm.com/)
+- Basic knowledge of Watson Natural Language Classifier by viewing [docs](https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier&cm_mc_uid=08582511162115581306652&cm_mc_sid_50200000=48334731559443154666&cm_mc_sid_52640000=20154341559443154668&programming_language=python#natural-language-classifier).
+- Provision an instance of Watson Studio instance](https://cloud.ibm.com/catalog/services/watson-studio)
+- Log into Watson Studio & provision a Watson Natural Language Classifier instance within Watson Studio
+    - getting started
+    - create a project
+    - Choose standard project
+    - Choose assets
+    - Scroll down to models and create new natural language classifier model
+
+
+- Upload your CSV file with label examples, better accuracy through shorter text
+- Natural Language Classifier will return the best matching classes for a sentence, phrase, or paragraph
+- Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
+- You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
+
+
+
 
 
 
