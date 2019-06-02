@@ -1,4 +1,4 @@
-# Watson Natural Language Classifier
+# Watson Natural Language Classifier, Watson Studio & Data Refinery
 
 ## Definition of Text Classification
 - It is an area of AI which is natural language processing (NLP) that focuses on labeling and organizing text
@@ -34,12 +34,13 @@ Prerequisites
 - Log into Watson Studio & provision a Watson Natural Language Classifier instance within Watson Studio
     - getting started
     - create a project
-    - Choose standard project
-    - Choose assets
+    - Choose standard project, name it
+    - Choose assets within the project
     - Scroll down to models and create new natural language classifier model
     - Name your classifier 
     - Choose to either upload a CSV for classification or create an empty class to add data to later
         - Creation of a training set of data by uploading raw CSV data and doing data cleansing in data refinery to build                   sample set of data for training(better accuracy through shorter test, file should contain sample classifiers and sample questions/statements to be classified)
+        - Within the assets section of Watson Studio project, create a data refinery flow
      
      
      
