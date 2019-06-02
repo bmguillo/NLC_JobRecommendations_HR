@@ -17,3 +17,4 @@
 - Classify spam
 - sort posts on a message board 
 - classify weather data e.g. conditions, temperature
+- support tickets
