@@ -30,7 +30,7 @@
 Prerequisites
 - IBM Cloud account: If you do not have an IBM Cloud account, you can create an account [here](https://cloud.ibm.com/)
 - Basic knowledge of Watson Natural Language Classifier by viewing [docs](https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier&cm_mc_uid=08582511162115581306652&cm_mc_sid_50200000=48334731559443154666&cm_mc_sid_52640000=20154341559443154668&programming_language=python#natural-language-classifier).
-- Provision an instance of Watson Studio instance](https://cloud.ibm.com/catalog/services/watson-studio)
+- Provision an instance of Watson Studio [instance](https://cloud.ibm.com/catalog/services/watson-studio)
 - Log into Watson Studio & provision a Watson Natural Language Classifier instance within Watson Studio
     - getting started
     - create a project
