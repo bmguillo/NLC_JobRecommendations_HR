@@ -37,9 +37,14 @@ Prerequisites
     - Choose standard project
     - Choose assets
     - Scroll down to models and create new natural language classifier model
-
-
-- Upload your CSV file with label examples, better accuracy through shorter text
+    - Name your classifier 
+    - Choose to either upload a CSV for classification or create an empty class to add data to later
+        - Creation of a training set of data by uploading raw CSV data and doing data cleansing to build sample set of data                     for training(better accuracy through shorter test, file should contain sample classifiers and sample questions/statements to be classified)
+     
+     
+     
+     
+# Hints and Tips:
 - Natural Language Classifier will return the best matching classes for a sentence, phrase, or paragraph
 - Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
 - You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
