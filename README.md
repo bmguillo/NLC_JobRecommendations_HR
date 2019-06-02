@@ -21,4 +21,13 @@
 - Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
 - You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
 
+## Using Data Science Methodology
+
+1. Business Understanding(Identify Business Problem) - As an HR professional, I want an easy way to identify or label candidates that have certain qualities for specific job types based on those qualities
+2. Choosing the Right Algorithm - In this case, its classification. We are using Natural Language Classifier
+3. Data Requirements - Resume data & job role data, using sample with classifiers for training data
+4. Data Science Tools - structured data(excel) & Python
+5. Locate data - job repository & resume repository
+
+
 
