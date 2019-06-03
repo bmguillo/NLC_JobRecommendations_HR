@@ -43,7 +43,7 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     
  ## Use Data Refinery to Perform Data Cleansing to build training & test data
 - Within the assets section of Watson Studio project, create a data refinery flow
-- Creation of a training set of data by uploading raw CSV data and doing data cleansing in data refinery to build 
+- Creation of a training set of data by uploading raw CSV data and doing data cleansing in [data refinery](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) to build 
   sample set of data for training(better accuracy through shorter test, final training set file should contain sample 
   classifiers and sample questions/statements to be classified
     - Cleanup invalid data
