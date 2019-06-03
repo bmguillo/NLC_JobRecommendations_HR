@@ -24,12 +24,13 @@
 5. Locate data - job repository & resume repository
 6. Training & Testing Classifier(steps below)
 
-## Process to train/test a classifier in Watson Natural Language Classifier: 
-
+## Process to train/test a classifier in Watson Natural Language Classifier Pt. 1: 
 
 Prerequisites
 - IBM Cloud account: If you do not have an IBM Cloud account, you can create an account [here](https://cloud.ibm.com/)
 - Basic knowledge of Watson Natural Language Classifier by viewing [docs](https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier&cm_mc_uid=08582511162115581306652&cm_mc_sid_50200000=48334731559443154666&cm_mc_sid_52640000=20154341559443154668&programming_language=python#natural-language-classifier).
+
+Watson Studio, Watson Natural Language Classifier, Data Refinery
 - Provision an instance of Watson Studio [instance](https://cloud.ibm.com/catalog/services/watson-studio)
 - Log into Watson Studio & provision a Watson Natural Language Classifier instance within Watson Studio
     - getting started
@@ -51,6 +52,8 @@ Prerequisites
     - Remove blanks(missing data)
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)
        
+
+## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2: 
      
      
      
