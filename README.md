@@ -39,14 +39,16 @@ Prerequisites
     - Scroll down to models and create new natural language classifier model
     - Name your classifier 
     - Choose to either upload a CSV for classification or create an empty class to add data to later
-         - Within the assets section of Watson Studio project, create a data refinery flow
-         - Creation of a training set of data by uploading raw CSV data and doing data cleansing in data refinery to build 
-        sample set of data for training(better accuracy through shorter test, final training set file should contain sample 
-        classifiers and sample questions/statements to be classified
-            - Cleanup invalid data
-            - Remove excess data (only need sample)
-            - Merge columns
-            - Remove blanks(missing data)
+    
+ ## Use Data Refinery to Perform Data Cleansing to build training & test data
+- Within the assets section of Watson Studio project, create a data refinery flow
+- Creation of a training set of data by uploading raw CSV data and doing data cleansing in data refinery to build 
+  sample set of data for training(better accuracy through shorter test, final training set file should contain sample 
+  classifiers and sample questions/statements to be classified
+    - Cleanup invalid data
+    - Remove excess data (only need sample)
+    - Merge columns
+    - Remove blanks(missing data)
        
      
      
