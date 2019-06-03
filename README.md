@@ -49,6 +49,7 @@ Prerequisites
     - Remove excess data (only need sample)
     - Merge columns
     - Remove blanks(missing data)
+    - Rename columns so that Watson NLC can properly classify the data e.g. 
        
      
      
