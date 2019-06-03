@@ -70,6 +70,8 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
 - [Realtime Feedback Analysis with NLC](https://medium.com/@shyampurk/realtime-customer-feedback-analysis-with-ibm-watson-natural-language-classifier-cc411593ae4d)
 - [NLC & Watson Studio](https://medium.com/@shyampurk/realtime-customer-feedback-analysis-with-ibm-watson-natural-language-classifier-cc411593ae4d)
 - [Classify Job Descriptions in NLC](https://medium.com/ibm-watson/classify-job-descriptions-with-watson-natural-language-classifier-fca735ff2f3c)
+- [Training a Classifier Video](https://developer.ibm.com/videos/create-and-train-a-classifier-for-watsons-natural-language-classifier-service/)
+- [Developer blog on text classification](https://developer.ibm.com/blogs/getting-started-with-text-classification/)
 
 
 
