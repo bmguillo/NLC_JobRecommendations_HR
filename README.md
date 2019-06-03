@@ -49,7 +49,7 @@ Prerequisites
     - Remove excess data (only need sample)
     - Merge columns
     - Remove blanks(missing data)
-    - Rename columns so that Watson NLC can properly classify the data e.g. 
+    - Remove columns so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)
        
      
      
