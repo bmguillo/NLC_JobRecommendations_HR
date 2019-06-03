@@ -63,6 +63,13 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
 - Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
 - You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
 
+## Links
+- [NLC Best Practices:](https://medium.com/ibm-watson/watson-natural-language-classifier-fb66206be6de)
+- [Classification of Unstructured Text in NLC](https://medium.com/ibm-watson/cognitive-classification-of-text-and-what-it-can-do-for-you-514378af1e08)
+- [NLC & NLU](https://medium.com/@AlexAlBasosi/cognitive-workshop-series-natural-language-classifier-and-natural-language-understanding-898db567f188)
+- [Realtime Feedback Analysis with NLC](https://medium.com/@shyampurk/realtime-customer-feedback-analysis-with-ibm-watson-natural-language-classifier-cc411593ae4d)
+- [NLC & Watson Studio](https://medium.com/@shyampurk/realtime-customer-feedback-analysis-with-ibm-watson-natural-language-classifier-cc411593ae4d)
+- [Classify Job Descriptions in NLC](https://medium.com/ibm-watson/classify-job-descriptions-with-watson-natural-language-classifier-fca735ff2f3c)
 
 
 
