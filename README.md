@@ -47,6 +47,7 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
 - Creation of a training set of data by uploading raw CSV data and doing [data cleansing](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) in data refinery  to build 
   sample set of data for training(better accuracy through shorter test, final training set file should contain sample 
   classifiers and sample questions/statements to be classified
+    - Remove irrelevant data not needed to train
     - Cleanup invalid data
     - Remove excess data (only need sample)
     - Merge columns
@@ -54,7 +55,7 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)
        
 
-## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2: 
+## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
      
      
      
