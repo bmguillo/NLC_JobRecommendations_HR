@@ -69,16 +69,18 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlow3.png)
 
 ## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
-- Create sample training set from data refinery flow output
-    - better accuracy through shorter test
-    - final training set file should contain sample classifiers and sample questions/statements to be classified     
-     
-     
+- Create sample training set from data refinery flow output file
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlowSample.png)  
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlowSample2.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlowSample3.png)
      
 ## Hints and Tips:
 - Natural Language Classifier will return the best matching classes for a sentence, phrase, or paragraph
 - Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
 - You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
+- Better accuracy through shorter test file
+- Final training set file should contain sample classifiers and sample questions/statements to be classified     
+     
 
 ## Links
 - [NLC Best Practices:](https://medium.com/ibm-watson/watson-natural-language-classifier-fb66206be6de)
