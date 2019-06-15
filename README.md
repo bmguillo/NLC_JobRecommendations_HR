@@ -57,7 +57,7 @@ Prerequisites
     - Remove blanks(missing data)
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)  
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload.png)
-![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload2.pngl)
+
 
 - Run through data refinery flow to process the changes and create new file with shaped extension
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioAssetRefine.png)
@@ -77,7 +77,8 @@ Prerequisites
 - Scroll down to models and create new natural language classifier model
 - Name your classifier 
 - Choose to either upload a CSV for classification or create an empty class to add data to later
-- For this example, we will upload a CSV via the upload to project button
+- For this example, we will add a CSV via the upload to project button
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload2.png)
 
 
 ## Hints and Tips:
