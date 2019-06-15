@@ -42,17 +42,18 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     - Choose to either upload a CSV for classification or create an empty class to add data to later
     - For this example, we will upload a CSV via the upload to project button
     
- ## Use Data Refinery to Perform Data Cleansing to build training & test data
+ ## Use Data Refinery to Perform Data Cleansing to build training & test data sample sets
 - Within the assets section of Watson Studio project, choose CSV file and click refine under actions
-- Creation of a training set of data by uploading raw CSV data and doing [data cleansing](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) in data refinery  to build 
-  sample set of data for training(better accuracy through shorter test, final training set file should contain sample 
-  classifiers and sample questions/statements to be classified
+- Upload raw CSV data and doing [data cleansing](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) via refine option in data refinery
     - Remove irrelevant data not needed to train
     - Cleanup invalid data
     - Remove excess data (only need sample)
     - Merge columns
     - Remove blanks(missing data)
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)
+- Run through data refinery flow to process the changes and create new file with shaped extension
+- Create sample training set of data for training(better accuracy through shorter test, final training set file should contain sample classifiers and sample questions/statements to be classified
+   
        
 
 ## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
