@@ -29,8 +29,9 @@
 Prerequisites
 - IBM Cloud account: If you do not have an IBM Cloud account, you can create an account [here](https://cloud.ibm.com/)
 - Basic knowledge of Watson Natural Language Classifier by viewing [docs](https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier&cm_mc_uid=08582511162115581306652&cm_mc_sid_50200000=48334731559443154666&cm_mc_sid_52640000=20154341559443154668&programming_language=python#natural-language-classifier).
+- Provisioning of the following services: Watson Studio, Watson Natural Language Classifier, Data Refinery
 
-Watson Studio, Watson Natural Language Classifier, Data Refinery
+
 - Provision an instance of Watson Studio [instance](https://cloud.ibm.com/catalog/services/watson-studio)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioProvisioning1.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioProvisioning2.png)
@@ -40,10 +41,6 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     - create a project
     - Choose standard project, name it
     - Choose assets within the project
-    - Scroll down to models and create new natural language classifier model
-    - Name your classifier 
-    - Choose to either upload a CSV for classification or create an empty class to add data to later
-    - For this example, we will upload a CSV via the upload to project button
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioGettingStarted.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioWelcome.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNewProject.png)
@@ -68,12 +65,21 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlow2.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlow3.png)
 
+- Create sample training set from data refinery flow output file with shaped extension
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefinerySample.png)  
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefinerySample2.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefinerySample3.png)
+
+
 ## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
-- Create sample training set from data refinery flow output file
-![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlowSample.png)  
-![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlowSample2.png)
-![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefineryFlowSample3.png)
-     
+
+- Provision a Watson Natural Language Classifier instance within Watson Studio
+- Scroll down to models and create new natural language classifier model
+- Name your classifier 
+- Choose to either upload a CSV for classification or create an empty class to add data to later
+- For this example, we will upload a CSV via the upload to project button
+
+
 ## Hints and Tips:
 - Natural Language Classifier will return the best matching classes for a sentence, phrase, or paragraph
 - Training an ML classifier requires a “representational set” of training data. If we can provide an accurate sample of data that looks like the broader set, we can train on that smaller sample, giving us much quicker results.
