@@ -78,7 +78,9 @@ Prerequisites
 - Name your classifier 
 - Choose to either upload a CSV for classification or create an empty class to add data to later
 - For this example, we will add a CSV via the upload to project button
-![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload2.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCProvisioning.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCCreateClassifierandClass.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadtoProjectAddtoProject.png)
 
 
 ## Hints and Tips:
