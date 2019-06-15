@@ -51,13 +51,13 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     - Merge columns
     - Remove blanks(missing data)
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/WatsonStudioCSVAssetUpload.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/WatsonStudioCSVAssetUpload2.png)
+
 - Run through data refinery flow to process the changes and create new file with shaped extension
-- Create sample training set of data for training(better accuracy through shorter test, final training set file should contain sample classifiers and sample questions/statements to be classified
-   
-       
 
 ## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
-     
+- Create sample training set of data for training(better accuracy through shorter test, final training set file should contain sample classifiers and sample questions/statements to be classified     
      
      
      
