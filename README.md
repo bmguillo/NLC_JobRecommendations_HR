@@ -32,6 +32,9 @@ Prerequisites
 
 Watson Studio, Watson Natural Language Classifier, Data Refinery
 - Provision an instance of Watson Studio [instance](https://cloud.ibm.com/catalog/services/watson-studio)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioProvisioning1.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioProvisioning2.png)
+
 - Log into Watson Studio & provision a Watson Natural Language Classifier instance within Watson Studio
     - getting started
     - create a project
@@ -41,7 +44,12 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     - Name your classifier 
     - Choose to either upload a CSV for classification or create an empty class to add data to later
     - For this example, we will upload a CSV via the upload to project button
-    
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioGettingStarted.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioWelcome.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNewProject.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCreateAStandardProject.png)
+ 
+
  ## Use Data Refinery to Perform Data Cleansing to build training & test data sample sets
 - Within the assets section of Watson Studio project, choose CSV file and click refine under actions
 - Upload raw CSV data and doing [data cleansing](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) via refine option in data refinery
@@ -53,7 +61,7 @@ Watson Studio, Watson Natural Language Classifier, Data Refinery
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)
     
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload.png)
-![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload.png2.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload2.png)
 
 - Run through data refinery flow to process the changes and create new file with shaped extension
 
