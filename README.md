@@ -73,11 +73,9 @@ Prerequisites
 
 ## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
 
-- Provision a Watson Natural Language Classifier instance within Watson Studio
-- Scroll down to models and create new natural language classifier model
+- Provision a Watson Natural Language Classifier instance within Watson Studio by scrolling down to models and create new natural language classifier model
 - Name your classifier 
-- Choose to either upload a CSV for classification or create an empty class to add data to later
-- For this example, we will add a CSV via the upload to project button
+- Choose to either upload a CSV for classification or create an empty class to add data to later(for this example, we will add a CSV via the upload to project button)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCProvisioning.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCCreateClassifierandClass.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadtoProjectAddtoProject.png)
