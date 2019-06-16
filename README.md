@@ -24,19 +24,19 @@
 5. Locate data - job repository & resume repository
 6. Training & Testing Classifier(steps below)
 
-## Process to train/test a classifier in Watson Natural Language Classifier Pt. 1: 
+## Prerequisites to building a classifier model: 
 
 Prerequisites
 - IBM Cloud account: If you do not have an IBM Cloud account, you can create an account [here](https://cloud.ibm.com/)
 - Basic knowledge of Watson Natural Language Classifier by viewing [docs](https://cloud.ibm.com/docs/services/natural-language-classifier?topic=natural-language-classifier-natural-language-classifier&cm_mc_uid=08582511162115581306652&cm_mc_sid_50200000=48334731559443154666&cm_mc_sid_52640000=20154341559443154668&programming_language=python#natural-language-classifier).
-- Provisioning of the following services: Watson Studio, Watson Natural Language Classifier, Data Refinery
 
+## Provisioning Watson Studio and working with assets
 
 - Provision an instance of Watson Studio [instance](https://cloud.ibm.com/catalog/services/watson-studio)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioProvisioning1.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioProvisioning2.png)
 
-- Log into Watson Studio & provision a Watson Natural Language Classifier instance within Watson Studio
+- Log into Watson Studio, create a project & upload assets
     - getting started
     - create a project
     - Choose standard project, name it
@@ -47,7 +47,7 @@ Prerequisites
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCreateAStandardProject.png)
  
 
- ## Use Data Refinery to Perform Data Cleansing to build training & test data sample sets
+ ## Use Data Refinery within Watson Studio to Perform Data Cleansing before building training & test data sample sets
 - Within the assets section of Watson Studio project, choose CSV file and click refine under actions
 
 - Upload raw CSV data and doing [data cleansing](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) via refine option in data refinery
@@ -71,7 +71,7 @@ Prerequisites
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioDataRefinerySample3.png)
 
 
-## Process to train/test a classifier in Watson Natural Language Classifier Pt. 2(sample classifiers in training data & funnel real data to test creation of new classifiers)
+## Provisioning Natural Language Classifer to create a classifier model, train & test it
 
 - Provision a Watson Natural Language Classifier instance within Watson Studio by scrolling down to models and create new natural language classifier model
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCProvisioning.png)
@@ -98,7 +98,11 @@ Prerequisites
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCTestOverview.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadTestData_TestResults.png)
 
+## Evaluate Results
 - If the model is performing well, we can deploy into production. If it is not, we have to improve our training data, retrain and test again for the accuracy we expect
+
+## Deploy Model to production
+
 
 
 
