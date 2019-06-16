@@ -49,6 +49,7 @@ Prerequisites
 
  ## Use Data Refinery to Perform Data Cleansing to build training & test data sample sets
 - Within the assets section of Watson Studio project, choose CSV file and click refine under actions
+
 - Upload raw CSV data and doing [data cleansing](https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html#refine) via refine option in data refinery
     - Remove irrelevant data not needed to train
     - Cleanup invalid data
@@ -57,7 +58,6 @@ Prerequisites
     - Remove blanks(missing data)
     - Remove column headers so that Watson NLC can properly classify the data e.g. [weather sample](https://github.com/bmguillo/watsonnaturallanguageclassifier_hrjobrecommendations/blob/master/weather_data_train.csv)  
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioCSVAssetUpload.png)
-
 
 - Run through data refinery flow to process the changes and create new file with shaped extension
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioAssetRefine.png)
@@ -79,7 +79,11 @@ Prerequisites
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCProvisioning.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCCreateClassifierandClass.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadtoProjectAddtoProject.png)
-
+- Remove any incomplete classes that contain invalid characters prior to training
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCDeleteIncompleteClass.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCDeleteIncompleteClass2.png)
+- Begin training
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCReadytoTrain.png)
 
 ## Hints and Tips:
 - Natural Language Classifier will return the best matching classes for a sentence, phrase, or paragraph
