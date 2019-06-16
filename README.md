@@ -79,9 +79,15 @@ Prerequisites
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCProvisioning.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCCreateClassifierandClass.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadtoProjectAddtoProject.png)
+
+- View class data by clicking on a class
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCClasses.png)
+![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCClasses2.png)
+
 - Remove any incomplete classes that contain invalid characters prior to training
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCDeleteIncompleteClass.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCDeleteIncompleteClass2.png)
+
 - Begin training when classifier model states "ready to train" and click on "train model"
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCReadytoTrain.png)
 
