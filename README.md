@@ -93,7 +93,7 @@ Prerequisites
 - Begin training when classifier model states "ready to train" and click on "train model"
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCReadytoTrain.png)
 
-- When training is complete, we can begin testing
+- When training is complete, we can begin testing and look at the accuracy of the results
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCTrainingComplete.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCTestOverview.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadTestData_TestResults.png)
