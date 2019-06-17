@@ -97,7 +97,7 @@ Prerequisites
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCTrainingComplete.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioNLCTestOverview.png)
 ![test](https://github.com/bmguillo/NLC_WatsonStudio_DataRefinery/blob/master/img/WatsonStudioUploadTestData_TestResults.png)
-The confidence scores let us know how confidence Watson believes the class matches the textual data
+The confidence scores let us know how confidence Watson believes the class matches the textual data, the range is 0 to 1, closer to 0 means its less confident and closer to 1 means its more confidence in the match.
 
 ## Evaluate Results
 - If the model is performing well, we can deploy into production. If it is not, we have to improve our training data, retrain and test again for the accuracy we expect
