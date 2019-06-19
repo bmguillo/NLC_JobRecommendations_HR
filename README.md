@@ -101,6 +101,15 @@ Prerequisites
 
 ## Evaluate Results
 - If the model is performing well, we can deploy into production. If it is not, we have to improve our training data, retrain and test again for the accuracy we expect
+- Measure how well your model performed by determining the accuracy, precision and recall
+    - Precision: percentage of documents labeled as positive that are actually positive
+        Formula: True Positives/(True Positives + False Positives)
+    - Recall: % of documents labeled as positived were succesfully retrieved
+        Formula: True Positives/(True Positives + False Negatives)
+    - Accuracy: fraction of documents relevant to a query that were succesfully retrieved
+        Formula: (True Positives + True Negatives)/Total Document Count
+        
+        
 
 ## Deploy Model to production
 
@@ -113,6 +122,7 @@ Prerequisites
 - You can improve the performance of this classifier in two ways. The first is by defining additional target classes and providing new training data for those classes.Do not fabricate new training data, take training data directly from user input from logs or other sources. This helps ensure representativeness — no matter how clever you are any training data you fabricate is not going to match the way users interact with your system
 - Better accuracy through shorter test file
 - Final training set file should contain sample classifiers and sample questions/statements to be classified     
+- true positive: cases labeled positive that actually are positive, true negative: cases labeled negative that are actually negative, false positive: cases labeled positive that are actually negative(false alarm-wrong diagnosis), false negative: cases labeled negative that were actually positive(missed diagnosis)
      
 
 ## Links
